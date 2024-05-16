@@ -58,7 +58,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Hello, internet traveller.
+      title: <span style="font-size:2.5em;">Hello</span><br>internet traveller.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
     design:
@@ -105,7 +105,9 @@ sections:
 
   - block: experience
     content:
-      title: Experience
+      title: Me in a nutshell  <span style="font-size:0.5em;">[Download my complete CV here](uploads/CV_DallAmico.pdf)</span>
+
+
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -115,27 +117,54 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Postdoctoral Researcher
+          company: University of Padova - Heidelberg University
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: Padova
+          location: Padova - Heidelberg
+          date_start: '2024-01-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Current research:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Chemically homogeneous evolution
+              * Stellar mergers in star clusters
+              * Pop III stars binarity
+
+        - title: Ph.D.
+          company: University of Padova
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: Padova
+          location: Padova
+          date_start: '2020-10-01'
+          date_end: '2024-04-05'
+          description: |2-
+              About my Ph.D.:
+              * Awarded with **accademic laude**
+              * Winner of the **Cariparo Prize PhD Fellowship** funded by Fondazione Cariparo
+              * Thesis: "*The impact of chaotic dynamics and binary evolution on the formation of compact binary systems*"
+              * Supervisor: Prof. Michela Mapelli, Co-Supervisors: Prof. Giuliano Iorio, Dr. Sara Rastello
+              * [Download my Thesis here!](uploads/PhD_Thesis_DallAmico.pdf)
+
+        - title: MSc in Physics
+          company: University of Padova
+          company_url: ''
+          company_logo: Padova
+          location: Padova
+          date_start: '2017-12-01'
+          date_end: '2020-04-01'
+          description: Final mark **110/110 cum laude**, Grade point average **29.8/30**
+        
+        - title: BSc in Astronomy
+          company: University of Padova
+          company_url: ''
+          company_logo: Padova
+          location: Padova
+          date_start: '2014-10-01'
+          date_end: '2017-12-01'
+          description:
+
+
     design:
       columns: '2'
 
@@ -220,6 +249,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
+
   - block: collection
     id: featured
     content:
@@ -231,6 +261,7 @@ sections:
     design:
       columns: '2'
       view: card
+
   - block: collection
     content:
       title: Recent Publications
@@ -245,6 +276,7 @@ sections:
     design:
       columns: '2'
       view: citation
+      
   - block: collection
     id: talks
     content:

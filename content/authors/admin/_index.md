@@ -25,7 +25,7 @@ organizations:
     url: http://www.dfa.unipd.it/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include stellar dynamics, binary evolution and .
+bio: My research interests include stellar dynamics, binary evolution and star clusters.
 
 # Interests to show in About widget
 interests:
@@ -118,5 +118,5 @@ social:
 highlight_name: true
 ---
 
-I'm Marco Dall'Amico, a postdoctoral researcher at the University of Padova and at the Heidelberg University. In my research, I study the origins of gravitational wave sources and I explore the impact of stellar dynamics and binary interactions through numerical simulations.
+I'm Marco Dall'Amico, a postdoctoral researcher at the University of Padova and at the Heidelberg University. In my research, I study the origin of gravitational wave sources and I explore the impact of stellar dynamics and binary interactions through numerical simulations.
 {style="text-align: justify;"}
