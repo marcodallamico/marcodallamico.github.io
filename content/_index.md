@@ -168,6 +168,23 @@ sections:
     design:
       columns: '2'
 
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        [Check my full publication list here](https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=AND&filter_author_facet_hier_fq_author=author_facet_hier%3A%221%2FDall'Amico%2C%20M%2FDall'Amico%2C%20Marco%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=author_facet_hier%3A%221%2FDall'Amico%2C%20M%2FDall'Amico%2C%20Marco%22&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&p_=0&q=%20%20author%3A%22Dall'Amico%2C%20Marco%22&sort=date%20desc%2C%20bibcode%20desc).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -262,20 +279,7 @@ sections:
       columns: '2'
       view: card
 
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+
       
   - block: collection
     id: talks
