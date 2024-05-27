@@ -110,7 +110,7 @@ sections:
         - name: Dynamics
           tag: Dynamics
         - name: Stellar Evolution
-          tag: Demo
+          tag: Stellar Evolution
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -147,7 +147,7 @@ sections:
               * Stellar mergers in star clusters
               * Pop III stars binarity
 
-        - title: Ph.D.
+        - title: Ph.D. in Astronomy
           company: University of Padova
           company_url: ''
           company_logo: Padova
@@ -155,12 +155,25 @@ sections:
           date_start: '2020-10-01'
           date_end: '2024-04-05'
           description: |2-
-              About my Ph.D.:
               * Awarded with **accademic laude**
               * Winner of the **Cariparo Prize PhD Fellowship** funded by Fondazione Cariparo
               * Thesis: "*The impact of chaotic dynamics and binary evolution on the formation of compact binary systems*"
               * Supervisor: Prof. Michela Mapelli, Co-Supervisors: Prof. Giuliano Iorio, Dr. Sara Rastello
-              * [Download my Thesis here!](uploads/PhD_Thesis_DallAmico.pdf)
+              * **11** conferences as speaker
+              * **2** supervised bachelor and **1** master students
+
+              <div class="custom-html-snippet">
+              <a href="uploads/PhD_Thesis_DallAmico.pdf" target="_blank" class="inline-flex items-center" style="padding: 8px 12px; font-size: 16px; text-decoration: none; border: 1px solid white; border-radius: 4px; background-color: #4b5563; color: white;" onmouseover="this.style.backgroundColor='#374151'; this.style.color='white';" onmouseout="this.style.backgroundColor='#4b5563'; this.style.color='white';">
+                <svg style="width: 18px; height: 18px; margin-right: 4px; fill: white;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+                  <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                </svg>
+                Download my PhD Thesis
+              </a>
+              </div>
+      
+
+# * [Download my Thesis here!](uploads/PhD_Thesis_DallAmico.pdf)
 
         - title: MSc in Physics
           company: University of Padova
@@ -169,7 +182,10 @@ sections:
           location: Padova
           date_start: '2017-12-01'
           date_end: '2020-04-01'
-          description: Final mark **110/110 cum laude**, Grade point average **29.8/30**
+          description: |2- 
+            * Final mark **110/110 cum laude** 
+            * Grade point average **29.8/30**
+            * Erasmus+ at **Stockholm University** from 08/2018 to 06/2019
         
         - title: BSc in Astronomy
           company: University of Padova
@@ -179,7 +195,6 @@ sections:
           date_start: '2014-10-01'
           date_end: '2017-12-01'
           description:
-
 
     design:
       columns: '2'
@@ -300,14 +315,52 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks & Outreach
       filters:
         folders:
           - talks
+      text: |-
+        <div class="col-lg-12 mb-5 view-showcase">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="section-subheading article-title mb-0 mt-0">Sagittarius A*</div>
+              <div class="article-style">
+                A Youtube live I've done with Dr. Sara Rastello for <a href="https://www.astrospace.it/" target="_blank">astrospace.it</a> about the first picture of Sag. A* (Italian).
+              </div>
+              <div class="btn-links">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-first ">
+                <a href="/talks/video/" >
+                  <iframe width="610" height="407" src="https://www.youtube.com/embed/ewIiSX2Dvow" title="La prima foto del &quot;nostro&quot; buco nero Sgr A*" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 mb-5 view-showcase">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="section-subheading article-title mb-0 mt-0">European Researcher Night</div>
+              <div class="article-style">
+                A talk about my work during the <a href="https://meetmetonight.oapd.inaf.it/programma" target="_blank">European Research Night</a> in September 2021, Padova (Italian).
+              </div>
+              <div class="btn-links">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-first order-md-2">
+                <a href="/talks/example/" >
+                  <iframe width="610" height="407" src="https://www.youtube.com/embed/h1bdHFhIlMI?start=12440" title="Notte dei Ricercatori 2021, La giovane astronomia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </a>
+            </div>
+          </div>
+        </div>
+
     design:
       columns: '1'
       view: showcase
       flip_alt_rows: true
+
+
 
   # - block: tag_cloud
   #   content:
@@ -321,7 +374,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Catch you on the flip side!
+        ***Catch you on the flip side!***
       # Contact (add or remove contact options as necessary)
       email: marco.fromfriend@gmail.com
       phone:
@@ -342,18 +395,18 @@ sections:
         latitude: '45.402139667927635'
         longitude: '11.868428022180193'  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
+        # - icon: twitter
+        #   icon_pack: fab
+        #   name: DM Me
+        #   link: ''
         - icon: skype
           icon_pack: fab
           name: Skype Me
-          link: 'skype:echo123?call'
+          link: 'skype:mr.marco95'
         - icon: video
           icon_pack: fas
           name: Zoom Me
-          link: 'https://zoom.com'
+          link: 'https://unipd.zoom.us/j/2883040027'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

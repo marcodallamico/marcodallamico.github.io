@@ -96,16 +96,17 @@ social:
     link: '/#contact'
 
   - icon: ads # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+    icon_pack: ai
     link: https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=AND&filter_author_facet_hier_fq_author=author_facet_hier%3A%221%2FDall'Amico%2C%20M%2FDall'Amico%2C%20Marco%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%221%2FDall'Amico%2C%20M%2FDall'Amico%2C%20Marco%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20%20author%3A%22Dall'Amico%2C%20Marco%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
 
   - icon: arxiv
-    icon_pack: fas
+    icon_pack: ai
     link: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Dall%27Amico%2C+Marco&terms-0-field=author&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
 
-  - icon: academicons/orcid
-    icon_pack: fas
-    url: https://orcid.org/0000-0003-0757-8334
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-0757-8334
+    #url: per allegati
 
   - icon: github
     icon_pack: fab
@@ -117,8 +118,7 @@ social:
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   
-    # NB THE LAST ACADEMICON ICONS HAVE BEEN MANUALLY ADDED IN THE HTML FILE (ORCID, ARXIV, NASA ADS)
-    
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
