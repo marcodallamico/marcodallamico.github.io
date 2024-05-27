@@ -62,3 +62,23 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: false
