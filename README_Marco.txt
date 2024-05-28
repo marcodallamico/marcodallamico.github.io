@@ -7,3 +7,6 @@ then when changes are done, add, commit and push into the github repo
 
 see also another cool template:
 https://academic-demo.netlify.app/
+
+Check the guide:
+https://docs.hugoblox.com/
