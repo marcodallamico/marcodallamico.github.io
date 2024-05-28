@@ -82,3 +82,7 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: false
+
+services:
+  googleAnalytics:
+    id: "G-WWYCVWR3CV"

@@ -47,3 +47,8 @@ features = ["page builder", "widgets", "themes", "search", "research publication
   name = ""
   homepage = ""
   repo = ""
+
+[services]
+  [services.googleAnalytics]
+    id = "G-WWYCVWR3CV"
+
