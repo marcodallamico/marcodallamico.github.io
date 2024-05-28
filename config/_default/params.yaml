@@ -118,3 +118,7 @@ security:
 marketing:
   analytics:
     google_analytics: 'G-WWYCVWR3CV'
+
+services:
+  googleAnalytics:
+    id: "G-WWYCVWR3CV"
